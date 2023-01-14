@@ -64,6 +64,8 @@ footer {
     position: fixed;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
+    
 }
 h3 {
     margin-left: 20px;
@@ -71,12 +73,12 @@ h3 {
 }
 #footer-nav {
     display: flex;
-    align-items: flex-end;
 }
 #footer-nav li {
     text-decoration: none;
     display: inline;
     margin-right: 20px;
+    
 }
 a:link, a:visited, a:hover, a:active {
     color: #69696a;
