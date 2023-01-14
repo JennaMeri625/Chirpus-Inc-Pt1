@@ -19,8 +19,7 @@ header {
 #chirpus-inc {
     margin-left: 0;
     font-weight: normal;
-    font-size: 14pt;
-    
+    font-size: 14pt;  
 }
 ul {
     list-style: none;
@@ -67,18 +66,15 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    
 }
 span {
     margin-left: 20px;
     font-weight: normal;
 }
-
 div li{
     text-decoration: none;
     display: inline;
     margin-right: 20px;
-    
 }
 a:link, a:visited, a:hover, a:active {
     color: #69696a;
