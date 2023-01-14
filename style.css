@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+style {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
 * {
     margin: 0;
 }
@@ -16,28 +18,44 @@ header {
     padding: 20px;
 }
 #chirpus-inc {
-
+    margin-left: 0;
+    
 }
 ul {
     list-style: none;
+    padding: 0;
 }
 #nav {
 
 }
 #nav li {
-
+    margin-top: 10px;
 
 }
 p {
     color: #fff;
     background-color: #000;
     text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    
 }
 h1 {
-
+    margin-left: 20px;
+    margin-top: 10px;
 }
 h2 {
-
+    border-left: 2px solid #69696a;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #69696a;
+    font-size: 12pt;
+    font-weight: normal;
 }
 footer {
     background-color: rgba(247, 193, 162, 0.7);
@@ -45,6 +63,8 @@ footer {
     flex-direction: row;
     box-sizing: border-box;
     position: fixed;
+    align-items: baseline;
+
 }
 h3 {
     margin-left: 20px;
@@ -55,6 +75,7 @@ h3 {
 }
 #footer-nav li {
     text-decoration: none;
+    color: #69696a;
     display: inline;
     justify-content: space-between;
     align-items: flex-end;
