@@ -28,7 +28,11 @@ ul {
 }
 #nav li {
     margin-top: 10px;
-
+}
+nav p {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
 }
 p {
     color: #fff;
